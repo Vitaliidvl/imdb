@@ -30,7 +30,7 @@ export default async function MoviePage({ params }) {
           blurDataURL="/spinner.svg"
           alt="Movie poster"
         ></Image>
-        <div className="p-3 items-center">
+        <div className="p-2 ">
           <h2 className="text-lg mb-3 font-bold">
             {movie.title || movie.name}
           </h2>
